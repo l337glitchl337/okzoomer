@@ -78,13 +78,6 @@ class Zoom:
                                 logging.info(f"Downloaded {topic} for {email} from {url['recording_start']}")
                 except Exception as e:
                     logging.error(e)
-                    if retry != 3:
-                        logging.info(f"Retrying download for {topic} for {email}")
-                        retry += 1
-                        continue
-                    else:
-                        break
-                break
 
         self.log_rundate() #logs new date for this script being ran
 
