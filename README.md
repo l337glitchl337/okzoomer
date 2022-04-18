@@ -10,5 +10,5 @@ DOWNLOAD_DIRECTORY='' # Directory where you want recordings to be downloaded to
 EMAIL_FILE='' # This is the file you will need to put your end users email address so the script can look up their recordings.
 EMAIL_SUFFIX='' # This is needed because the script will strip the suffix from each user to create a directory based on their user name
 
-This script creates a few files when firs started, it will create a "lastran.txt" file to keep track of when the last time the script is ran. This is important to query Zoom's api to get the most current recordings and not re-download recordings that have already been saved. The info.log file is of course, a log file. You can check this file to check on the status of the script and if there was any errors while downloading.
+This script creates a few files when first started, it will create a "lastran.txt" file to keep track of when the last time the script is ran. This is important to query Zoom's api to get the most current recordings and not re-download recordings that have already been saved. The info.log file is of course, a log file. You can check this file to check on the status of the script and if there was any errors while downloading.
 
